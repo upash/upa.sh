@@ -4,101 +4,41 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Uchu Denpa</title>
+  <link rel="stylesheet" type="text/css" href="./style.css">
 </head>
 <body>
 
-  <div class="main">
-    <div class="title">Uchu Denpa</div>
-    <div class="slogan">Building practical solutions.</div>
-    <div class="body">
-        <div class="desc">
-        Uchu Denpa or UPA, is from the Japanese: 宇宙電波 which means Cosmic Radio Waves in English.
-      </div>
-
-      <div class="box">
-        <div class="box-title">PRODUCTS:</div>
-        <ul class="products">
-          <li>
-            <a href="https://peco.upa.sh" target="_blank">peco (beta)</a>
-          </li>
-        </ul>
-      </div>
-
-      <div class="box">
-        <div class="box-title">LINKS:</div>
-        <ul>
-          <li>
-            <a href="https://github.com/uchudenpa" target="_blank">github</a>
-          </li>
-        </ul>
+  <section class="section enter">
+    <div class="content">
+      <div>
+        <h1 class="title">UCHU DENPA STUDIO</h1>
+        <h2 class="slogan">BUILDING PRACTICAL SOLUTIONS</h2>
       </div>
     </div>
-    <footer class="footer">
-      &copy; 2018 Uchu Denpa Studio.
-    </footer>
-  </div>
+    <a class="arrow" href="#products">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down"><polyline points="6 9 12 15 18 9"></polyline></svg>
+      </a>
+  </section>
 
-  <style>
-  :root {
-    --gray: #868e96;
-  }
-  body {
-    margin: 0;
-    font-family: monospace,sans-serif;
-  }
+  <section class="section product" id="products">
+    <div class="container">
+      <div class="grid">
+        <div class="product-content column">
+          <div class="product-title">Peco</div>
+          <div class="product-desc">Peco is a static website generator powered by modern web tooling, like webpack and Vue.js. It generates static HTML files and assets at build time, once the generated website is loaded on the client-side, it runs as an SPA.</div>
+          <a class="product-link" href="https://peco.upa.sh" target="_blank">View Product</a>
+        </div>
+        <div class="product-preview column">
+          <img width="400" src="https://i.loli.net/2018/08/05/5b667865dd6f5.png">
+        </div>
+        </div>
+    </div>
+  </section>
 
-  .main {
-    max-width: 500px;
-    margin: 0 auto;
-    padding: 50px 10px;
-  }
-
-  .title {
-    font-weight: bold;
-    font-size: 40px;
-    height: 50px;
-    line-height: 50px;
-  }
-
-  .slogan {
-    margin-top: 10px;
-    font-weight: bold;
-    font-size: 17px;
-  }
-
-  .desc {
-    color: var(--gray);
-    margin-top: 20px;
-  }
-
-  ul {
-    padding-left: 20px;
-  }
-
-  a {
-    color: inherit;
-    text-decoration: none;
-  }
-
-  a:hover {
-    text-decoration: underline;
-  }
-
-  .box {
-    margin-top: 20px;
-  }
-
-  .box-title {
-    font-weight: bold;
-    font-size: 14px;
-  }
-
-  .footer {
-    margin-top: 40px;
-    color: var(--gray);
-    font-size: 14px;
-  }
-  </style>
-
+  <footer class="footer">
+    <a href="mailto:0x142857@gmail.com">Contact</a>
+    &nbsp;/&nbsp;
+    <a href="https://github.com/uchudenpa" target="_blank">GitHub</a>
+  </footer>
 </body>
 </html>
