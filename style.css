@@ -48,7 +48,7 @@ a:hover {
 .enter {
   height: 100vh;
   background-color: #000;
-  background-image: url(./images/bg_sh.jpg);
+  background-image: url(./images/bg.jpg);
   background-size: cover;
   background-position: center;
   color: white;
