@@ -82,6 +82,7 @@ a:hover {
   font-size: 18px;
   margin-bottom: 10px;
   font-weight: 500;
+  text-transform: uppercase;
 }
 
 .slogan {
@@ -90,6 +91,7 @@ a:hover {
   opacity: .35;
   letter-spacing: 1px;
   font-size: 14px;
+  text-transform: uppercase;
 }
 
 .product {
